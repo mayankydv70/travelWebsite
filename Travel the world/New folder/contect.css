@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Montserrat", serif;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header{
+    height: 10vh;
+    background-color: #3f3e3e;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.nav-items{
+    display: flex;
+    font-size: 18px;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.nav-item a{
+    color: #fff;
+    padding-left: 16px;
+}
+
+.navbar .logo{
+    font-size: 30px;
+    color: #fff;
+}
+
+.contect{
+    height: 90vh;
+    background-color: #faf6f6;
+}
+.contect .contect-container{
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.contect .contect-container .contect-left{
+    display: flex;
+    flex-direction: column;
+    height: 95%;
+    width: 48.5%;
+    background-color: #fff;
+}
+
+.contect .contect-container .contect-right{
+    height: 95%;
+    width: 48.5%;
+    background-color: #fff;
+}
+
+.contect .contect-container .contect-left .location{
+    padding: 15px 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contect .contect-container .contect-left .adress{
+    padding: 0px 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.contect .contect-container .contect-left .mail{
+    padding: 15px 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.contect .contect-container .contect-left .mail-id{
+    padding: 0px 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.contect .contect-container .contect-left .call{
+    padding: 15px 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.contect .contect-container .contect-left .number{
+    padding: 0px 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.contect .contect-container .contect-left img{
+    padding-top: 20px;
+    height: 64%;
+    width: 90%;
+}
+
+.contect .contect-container .contect-right .heading{
+    padding: 15px 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 2rem;
+    font-weight: 500;
+    border-bottom: 6px solid #e63946;
+} 
+.contect .contect-container .contect-right .word{
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.contect .contect-container .contect-right .username{
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.contect .contect-container .contect-right .text{
+    width: 90%;
+    padding-left: 10px;
+}
+.contect .contect-container .contect-right .email{
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.contect .contect-container .contect-right .text-email{
+    width: 90%;
+    padding-left: 10px;
+}
+.contect .contect-container .contect-right .contect{
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.contect .contect-container .contect-right .text-contect{
+    width: 90%;
+    padding-left: 10px;
+}
+
+.contect .contect-container .contect-right .Messege{
+    padding: 10px 15px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.contect .contect-container .contect-right .textarea{
+    width: 90%;
+    height: 50%;
+}
+.contect .contect-container .contect-right .button{
+    text-align: center;
+    padding: 8px 20px;
+    margin-left: 185px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #e63946;
+    color: #fff;
+    width: 150px;
+}
+
+.footer h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+    font-weight: 500;
+    color: #fff;
+    background: rgb(65,65,65);
+}
+
