@@ -193,3 +193,24 @@ body{
     background: rgb(65,65,65);
 }
 
+/* ################################## media ##################################### */
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+       }
+       .navbar{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-content: center;
+        margin-top: 50px;
+       }
+
+
+       .contect-right .button{
+        display: block;
+       }
+}
+
+

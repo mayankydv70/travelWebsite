@@ -231,7 +231,75 @@ body{
     background: rgb(65,65,65);
 }
 
+/* ####################################### @media ############################################## */
 
+@media (max-width: 500px){
+   html{
+    font-size: 50%;
+   }
+   .header{
+    /* height: 50%; */
+   }
+   .navbar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+   }
+
+   .main-heading .heading{
+    padding-bottom: 20px;
+   }
+   .main-heading .line{
+    padding: 0 auto;
+   }
+   .btn{
+    padding-top: 10px;
+    font-weight: 700;
+   }
+
+   .container-2{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 100%;
+
+   }
+
+   .container-2 .img,
+   .container-2 .note{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+   }
+
+   .container-3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    width: 100%;
+
+   }
+   .container-3 .img,
+   .container-3 .note{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+   }
+
+   .text-container{
+    display: block;
+    margin-top: 600px;
+   }
+
+   .footer{
+    display: block;
+    margin-top: 400px;
+   }
+}
 
 
 
